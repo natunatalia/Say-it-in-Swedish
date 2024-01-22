@@ -45,7 +45,7 @@ The last part of the code is defining labels and buttons for the interface. All 
 ### 4. Acknowledgments 
 The core code for the recorder is the one proposed by Valerio Velardo [link to the video](https://www.youtube.com/watch?v=e9CRZEi_feA). Different features were added and some were modified. 
 
-I have used M. Hammond's book "Python for Linguists" as the main source. 
+I have used M. Hammond's book "Python for Linguists" (2018) as the main source. 
 
 
 
