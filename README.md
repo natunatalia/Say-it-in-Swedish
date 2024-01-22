@@ -16,17 +16,8 @@ The tool can be used in two ways:
 2. The student skips the part with the text and writes a chosen sentence in the writing space. They can listen to the individual sentence and then record their version of it. After that, they get simple feedback: "Perfect!", "Good!", or "Ok. Try recording the sentence again.".
    
 ### 2. Installation
-Create an environment in the programming tool you use and install the following modules and libraries in your terminal:  
-pip install gTTS  
-pip install librosa  
-pip install playsound  
-pip install dtw  
-pip install numpy  
-pip install tk  
-pip install pydub
-pip install pyaudio
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" (for mac)
-brew install ffmpeg (mac)
+Create an environment in the programming tool you use and use the requirements file (requirements.txt) to install all the needed modules. When you have the file in the directory you will work in, write the following code in the terminal: pip install -r requirements.txt
+The list of all the libraries that you will need is at the beginning of the document with the code, which is called "say_it_in_Swedish.py". Download also the audio file upplastmening.mp3 and if you do not have any text file with Swedish text, there is 
 
 
 Import all the libraries, see the file UploadTextFile.py
