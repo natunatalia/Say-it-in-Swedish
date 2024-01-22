@@ -35,7 +35,7 @@ Import all the libraries, see the file UploadTextFile.py
 The code has many parts that can be used for other projects if needed.  
 
 ### Getting a file from a home directory and displaying it on the screen
-This function **choose_file** allows the user to choose a text file from their home directory and if a file is chosen, the text will be displayed on the screen. 
+This function @@choose_file@@ allows the user to choose a text file from their home directory and if a file is chosen, the text will be displayed on the screen. 
 
 #### Converting text to audio
 For this part of the project, we decided to use the Google text-to-speech module and Playsound library. We created a function and defined different parameters within it, like entry, language, and the name of the created audio file, and made it possible to play it. The language can be easily changed. We used the function both for the text input (**generate_and_play_textfile**) and the sentence input (**generate_and_play_mening**). The audio file is stored in mp3 format. 
