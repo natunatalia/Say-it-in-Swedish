@@ -8,16 +8,16 @@ A prototype of a simple tool that allows students of Swedish to practice their p
 3. Usage
 4. Limitations
 5. Acknowledgments
-8. Questions to Wojtek :)
+
 
 ### 1. Introduction
 This is a school project whose aim is to give students of Swedish a simple tool to practice their pronunciation.
 The tool can be used in two ways:
-1. The student uploads a text file and then listens to it. After that, the student can choose the sentece/-s they want to practice pronouncing and they write it in the writing space. They can listen to the individual sentence and then record their version of it. After that, they get simple feedback: "Perfect!", "Good!", or "Try recording the sentence again.".
-2. The student skips the part with the text and writes a chosen sentence in the writing space. They can listen to the individual sentence and then record their version of it. After that, they get simple feedback: "Perfect!", "Good!", or "Try recording the sentence again.".
+1. The student uploads a text file and then listens to it. After that, the student can choose the sentece/-s they want to practice pronouncing and they write it in the writing space. They can listen to the individual sentence and then record their version of it. After that, they get simple feedback: "Perfect!", "Good!", or "Ok. Try recording the sentence again.".
+2. The student skips the part with the text and writes a chosen sentence in the writing space. They can listen to the individual sentence and then record their version of it. After that, they get simple feedback: "Perfect!", "Good!", or "Ok. Try recording the sentence again.".
    
 ### 2. Installation
-Create an environment(do I have to explain how to do it?) in the tool you use and install the following modules and libraries in your terminal:  
+Create an environment in the programming tool you use and install the following modules and libraries in your terminal:  
 pip install gTTS  
 pip install librosa  
 pip install playsound  
