@@ -18,6 +18,7 @@ The tool can be used in two ways:
 ### 2. Installation
 Create an environment in the programming tool you use and use the requirements file ("requirements.txt") to install all the needed modules. When you have the file in the directory you will work in, write the following code in the terminal: pip install -r requirements.txt
 The list of all the libraries that you will need to import is at the beginning of the document with the code, which is called "Say_it_in_Swedish.py". Download also the audio files "upplastmening.mp3" and "upplastmening_converted.wav" If you do not have any text file with Swedish text, there is a file, "sample_text_Swedish.txt" that you can use to test the program. Place both the recording and the text file in the same directory as the code.
+If you have problems with the installation on a Mac, install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" and then additionally: brew install ffmpeg
 
 ### 3. Usage
 The code has many parts that can be used for other projects if needed.  
